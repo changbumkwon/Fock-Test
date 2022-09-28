@@ -21,9 +21,9 @@ namespace Calculator
                 Console.WriteLine("{0} = {1}", input, clculate.AdditionSubtraction(input.ToCharArray(), 0));
                 input = Console.ReadLine();
                 if (input == "n")
-                {
+                
                     break;
-                }
+                
             }
         }
     }
